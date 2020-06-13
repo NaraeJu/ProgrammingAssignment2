@@ -1,4 +1,10 @@
 
+## Overall description
+## Two functions, makeCacheMatrix and cacheSolve, will allow to store an inverted matrix in a cache and
+## retrieve it without cumbersome comcupatition with the same matrix. 
+## MakeCacheMatrix will create an object that stores a matrix and its inverted. 
+## cacheSolve will retrieve the inverted matrix from the cache that is stored in MakeCacheMatrix() envrionemnt. 
+
 
 ## Creates a matrix object that can cache its inverse
 makeCacheMatrix <- function(x = matrix()) {
